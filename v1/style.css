@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 75%;
+    height: 75%;
+    background-color: #413D3C;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.main-left {
+    width: calc(20% - 10px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main-right {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main-left-top {
+    width: 100%;
+    height: 50%;
+    background-color: #F1463E;
+    display: flex;
+    gap: 10px;
+}
+.main-left-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 10px;
+}
+.main-right-top {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    gap: 10px;
+}
+.main-right-bottom {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    gap: 10px;
+}
+.main-right-top-left {
+    width: 50%;
+    height: 100%;
+    background-color: #2CC4CF;
+    display: flex;
+    gap: 10px;
+}
+.main-right-top-right {
+    width: 50%;
+    height: 100%;
+    background-color: #D6B268;
+    display: flex;
+    gap: 10px;
+}
+.main-right-bottom-left {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main-right-bottom-right {
+    width: 20%;
+    height: 100%;
+    background-color: #F1463E;
+    display: flex;
+    gap: 10px;
+}
+.middle-top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 10px;
+}
+.middle-bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 10px;
+}
+.middle-top-left {
+    width: 30%;
+    height: 100%;
+    background-color: #D6B268;
+    display: flex;
+    gap: 10px;
+}
+.middle-top-right {
+    width: 70%;
+    height: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 10px;
+}
+.middle-bottom-left {
+    width: 70%;
+    height: 100%;
+    background-color: #F1463E;
+    display: flex;
+    gap: 10px;
+}
+.middle-bottom-right {
+    width: 30%;
+    height: 100%;
+    background-color: #2CC4CF;
+    display: flex;
+    gap: 10px;
+}
